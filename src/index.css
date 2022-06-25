@@ -1,13 +1,232 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.bg-success-nav{
+  background-color: rgb(15, 211, 113);
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ .nav1{
+  color: white;
+}
+
+.navbar-nav .nav-link.active{
+  color: white;  
+}
+
+.c1{
+margin-left: 100px;
+}
+
+.c2{
+  background-color: rgb(245, 223, 245);
+}
+.c3{
+  background-color: rgb(206, 248, 253);
+}
+
+.c4{
+  background-color: rgb(204, 226, 246);
+}
+
+.card{
+  margin: 50px;
+}
+
+.card-body{
+  padding: 8px;
+}
+
+.cardss{
+  position: absolute;
+  top: 160px;
+}
+
+.c1{
+  background-color: rgb(250, 241, 243);
+}
+
+.col2{
+  color: rgb(245, 223, 245);
+}
+
+.col3{
+  color: rgb(206, 248, 253);
+}
+
+.col4{
+  color: rgb(204, 226, 246);
+}
+
+.c5{
+  background-color: antiquewhite;
+}
+
+.col5{
+  color: antiquewhite;
+}
+
+.c7{
+  background-color: rgb(241, 241, 199);
+}
+
+.col7{
+  color: rgb(241, 241, 199);
+}
+
+.c6{
+  background-color: rgb(213, 197, 172);
+}
+
+.col6{
+  color: rgb(213, 197, 172);
+}
+
+.c8{
+  background-color: rgb(231, 196, 196);
+}
+
+.col8{
+  color: rgb(231, 196, 196);
+}
+
+.card-img-top{
+  border-radius: 95px;
+  width: 7rem;
+  height: 7rem;
+  margin: 20px 35px 0px;
+}
+
+.card-title{
+  padding-top: 0px;
+  margin-bottom: 0px;
+  font-weight: bolder;
+}
+
+.rating{
+  width:60px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 70px;
+}
+
+.fav{
+  width:30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 100px;
+  margin-left: 10px;
+  margin-top: 0px;
+  align-items: center;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  margin-top: 10px;
+}
+
+.gram{
+  width:50px;
+  height: 25px;
+  border-radius: 25px;
+  font-size: smaller;
+  background-color: white;
+  box-sizing: 0px;
+  border-color: white;
+  box-shadow: none;
+  margin-left: 10px;
+}
+
+.col1{
+  color: rgb(255, 228, 233);
+}
+
+
+.card-text{
+  margin-bottom: 0px;
+}
+
+.star{
+  width: 10px;
+  height: 10px;
+  margin-left: 0px;
+  padding-bottom: 2.5px;
+  font-size: smaller;
+  color: yellow;
+}
+
+span{
+  font-size: smaller;
+  color: rgb(235, 234, 234);
+  font-weight: 200;
+}
+
+.btn-outline-secondary{
+  position: absolute;
+  top: 90px;
+  left: 1150px;
+  height: 35px;
+  width: 78px;
+  font-weight: 500;
+  color: black;
+}
+
+.filter{
+  font-weight: bolder;
+  padding-bottom: 3px;
+}
+
+.p{
+  position: absolute;
+  top: 160px;
+  left: 1010px;
+  font-weight: bolder;
+}
+
+.down{
+  padding-right: 2px;
+  padding-bottom: 3px;
+  cursor: pointer;
+}
+
+.order{
+  position: absolute;
+  top: 160px;
+  left: 1270px;
+  font-weight: 900;
+}
+
+.edit{
+  position: absolute;
+  top: 160px;
+  left: 1450px;
+  color: rgb(15, 211, 113);
+}
+
+.time{
+  position: absolute;
+  top: 210px;
+  left: 1300px;
+  font-weight: 600;
+}
+
+.timeicon{
+  color:  rgb(15, 211, 113);
+  background-color: rgb(236, 236, 236);
+  border-radius: 3px;
+  width: 15px;
+  margin-right: 7px;
+  height: 15px;
+}
+
+.btns{
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.addfood{
+  position: absolute;
+  top: 510px;
+  left: 1300px;
+  font-weight: 600;
 }
